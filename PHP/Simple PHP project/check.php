@@ -6,12 +6,6 @@ if ( ini_get('display_errors') == 1 ) {
     echo "</pre>\n";
     return;
 }
-echo("YOU ARE IN VERY BAD SHAPE!!!!!!\n");
-echo("You need to edit this file:\n\n");
-echo(php_ini_loaded_file()."\n\n");
-echo("And set\n\n");
-echo("display_errors = On\n\n");
-echo("Until you do this, you will be very very unhappy doing PHP development\n");
-echo("in this PHP environment.\n");
+echo("DISPLAYING ERRORS IS NOT CORRECTLY SETTED UP!!!\n");
 echo "</pre>\n";
 ?>
