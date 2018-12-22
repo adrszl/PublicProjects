@@ -4,7 +4,7 @@
   <title>Adrian Szlegel</title>
   </head>
   <body>
-    <h1>Adrian Szlegel - Week 5 Assignment</h1>
+    <h1>Adrian Szlegel - Simple PHP project</h1>
     <p>The SHA256 of "Adrian Szlegel" is</p>
     <p><?php print hash('sha256', 'Adrian Szlegel'); ?></p>
     <h3>ASCII Art:</h3>
